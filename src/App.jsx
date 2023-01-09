@@ -18,6 +18,8 @@ function App() {
       <Multiply counter={counter}/>
       <br />
       <button onClick={() => setShow(!show)}>{show ? "Ocultar" : "Mostrar"}</button>
+      <br />
+      <br />
       {show ? <CountryApi/> : <></>}
     </div>
   )
