@@ -15,14 +15,6 @@ const CountryApi = () => {
 
     const showInfo = () =>{
         switch(display){
-            case 'demography':
-                return (
-                    <>
-                        <h3>Demography</h3>
-                        <p><b>Population: </b>{country.population}</p>
-                        <p><b>Area: </b>{country.area}</p>
-                    </>
-                )
             case 'location':
                 return(
                     <>
@@ -37,6 +29,14 @@ const CountryApi = () => {
                     <>
                         <h3>Capital</h3>
                         <p><b>Capital: </b>{country.capital}</p>
+                    </>
+                )
+            default:
+                return (
+                    <>
+                        <h3>Demography</h3>
+                        <p><b>Population: </b>{country.population}</p>
+                        <p><b>Area: </b>{country.area}</p>
                     </>
                 )
         }
