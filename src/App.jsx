@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import CountryApi from './assets/Components/CountryApi'
+import CountryApi from './assets/Components/Countries/CountryApi'
 import Multiply from './assets/Components/Multiply/Multiply';
 import './App.css'
 
